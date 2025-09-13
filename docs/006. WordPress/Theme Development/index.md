@@ -1,4 +1,4 @@
-# Theme Development
+# WordPress Theme Development
 
 ## Create a theme folder inside '/wp-content/themes/$your-theme-folder'
 
