@@ -1,13 +1,9 @@
-* [HTML](html)
-* [CSS](css)
-* [JavaScript](javascript)
-* [jQuery](javascript/jquery)
-* [PHP](php)
-* [WordPress](wordpress)
-    *  [Theme Development](wordpress/theme-development)
-    *  [Plugin Development](wordpress/theme-development)
-* [Shopify](shopify)
-
-# Markdown Documentation
-
-
+* [HTML](https://usmanahmed.github.io/docs/001. HTML)
+* [CSS](https://usmanahmed.github.io/docs/002. CSS)
+* [JavaScript](https://usmanahmed.github.io/docs/003. JavaScript)
+* [WordPress](https://usmanahmed.github.io/docs/005. WordPress)
+    * [Theme Development](https://usmanahmed.github.io/docs/005. WordPress/Theme Development)
+        * [Files and Folders](https://usmanahmed.github.io/docs/005. WordPress/Theme Development/Files and Folders)
+            * [index.php](https://usmanahmed.github.io/docs/005. WordPress/Theme Development/Files and Folders/index.php)
+* [Shopify](https://usmanahmed.github.io/docs/006. Shopify)
+    * [CLI](https://usmanahmed.github.io/docs/006. Shopify/CLI)
