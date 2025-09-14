@@ -1,9 +1,10 @@
 # WordPress Theme Development
 
-## Create a theme folder inside '/wp-content/themes/$your-theme-folder'
+## Initializing a theme
 
-## Create style.css with following content.
+Create a theme directory inside `/wp-content/themes/$your-theme-directory`
 
+Create `style.css` with following content.
 ```css
 /*
 Theme Name: KickStart
@@ -13,8 +14,7 @@ Description: This is a kickstarter theme.
 Text Domain: kickstart
 */
 ```
-
-### Or if you are using SASS, then use following
+Or if you are using SASS, then use following
 ```css
 /*!
 Theme Name: KickStart
@@ -24,3 +24,4 @@ Description: This is a kickstarter theme.
 Text Domain: kickstart
 */
 ```
+Create `index.php` and `functions.php` in the theme root directory
