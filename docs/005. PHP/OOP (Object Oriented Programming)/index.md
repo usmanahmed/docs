@@ -1,12 +1,16 @@
 # PHP - Object-Oriented Programming (OOP)
 
 ## Creating Class
+
 ```php
 class MyClass {
 }
 ```
+
 ---
+
 ## Method Chaining
+
 ```php
 class BillMe {
     public $dinner_cost = 20;
@@ -34,11 +38,15 @@ $bill = new BillMe();
 
 echo $bill->dinner(3)->dessert(1)->coldDrink(2)->bill_amount;
 ```
+
 ---
+
 ## Construct & Destruct
+
 `__construct()` runs automatically on the instantiation of Class.
 
 `__destruct()` runs on completion of Object.
+
 ```php
 class BillMe {
     function __construct() {
@@ -50,8 +58,11 @@ class BillMe {
     }
 }
 ```
+
 ---
+
 ## Inheritance
+
 ```php
 class Place {
     public $name;
@@ -69,11 +80,15 @@ class City extends Place {
 $washington_dc = new City('Washington DC');
 echo $washington_dc->name;
 ```
+
 ---
+
 ## Access Modifiers (Getters & Setters)
+
 Methods that are used to call private or protected properties are called Getters.
 
 Methods that are used to set the value of private or protected properties are called Setters.
+
 ```php
 class User {
   public $username = 'johndoe';
@@ -96,8 +111,11 @@ echo $the_user->getPass();
 echo $the_user->setPass('mynewpassword', 'mynewkey');
 echo $the_user->getPass();
 ```
+
 ---
+
 ## Interface
+
 Interface forces class to have some specific methods and method arguments.
 
 ```php
@@ -123,8 +141,11 @@ class SomeElement implements shapeInterface, colorInterface {
 
 }
 ```
+
 ---
+
 ## Abstract Class
+
 An abstract class can not be instantiated on its own. They are used for inheritance.
 
 ```php
@@ -155,8 +176,11 @@ echo $city->countryName();
 // Following line would through an error because abstract class can not be instantiated
 $place = new Place;
 ```
+
 ---
+
 ## Static Methods & Properties
+
 ```php
 class User {
   static public $name = "John Doe";
@@ -171,9 +195,11 @@ echo User::$name;
 echo User::getName();
 echo User::$name;
 ```
+
 ---
----
+
 ## Constants
+
 ```php
 class User {
   const ROLE = "Subcriber";
@@ -186,19 +212,29 @@ class User {
 // Constants can be accessed without instantiation
 echo User::ROLE;
 ```
+
 ---
+
 ## Encapsulation
+
 ---
+
 ## Polymorphism
+
 ---
+
 ## Traits
+
 ```php
 class FirstTest {
 
 }
 ```
+
 ---
+
 ## Dependency Injection
+
 ```php
 class Logger {
   public function log($message) {
@@ -235,11 +271,19 @@ $johndoe = new ManageUser($logger);
 $johndoe->createUser();
 $johndoe->deleteUser();
 ```
+
 ---
+
 ## Namespace
+
 ---
+
 ## Bidings (Early & Late)
+
 ---
+
 ## Final Method
+
 ---
+
 ## Final Class
