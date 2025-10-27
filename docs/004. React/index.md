@@ -5,3 +5,9 @@
 ```
 npm create vite@latest
 ```
+
+## Run
+
+```
+npm run dev
+```
