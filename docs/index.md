@@ -17,6 +17,7 @@
     * [Plugin Development](https://usmanahmed.github.io/docs/006. WordPress/Plugin Development)
     * [Theme Development](https://usmanahmed.github.io/docs/006. WordPress/Theme Development)
         * [Files and Folders](https://usmanahmed.github.io/docs/006. WordPress/Theme Development/Files and Folders)
-            * [index.php](https://usmanahmed.github.io/docs/006. WordPress/Theme Development/Files and Folders/index.php)
+            * [0](https://usmanahmed.github.io/docs/006. WordPress/Theme Development/Files and Folders/0)
+            * [2](https://usmanahmed.github.io/docs/006. WordPress/Theme Development/Files and Folders/2)
 * [Shopify](https://usmanahmed.github.io/docs/007. Shopify)
     * [CLI](https://usmanahmed.github.io/docs/007. Shopify/CLI)
